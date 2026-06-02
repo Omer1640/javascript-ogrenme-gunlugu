@@ -12,8 +12,8 @@
 
 | Konu              | Durum       | Tarih  | Notlar      | Kodlar |
 | ----------------- | ----------- | ------ | ----------- | ------ |
-| JavaScript Giriş  | ✅ Tamam |31 May | [not](./01-JavaScript-Giris/notlar.md)|[Kod](./01-JavaScript-Giris/kodlar.js)
-| Değişkenler       | ⏳ Bekliyor | —      | —           | —      |
+| JavaScript Giriş  | ✅ Tamam |31 May | [Not](./01-JavaScript-Giris/notlar.md)|[Kod](./01-JavaScript-Giris/kodlar.js)
+| Değişkenler       | ✅ Tamam | 02 Haz  | [Not](./02-Degiskenler/notlar.md)|[Kod](./02-Degiskenler/kodlar.js)|
 | Veri Tipleri      | ⏳ Bekliyor | —      | —           | —      |
 | Fonksiyonlar      | ⏳ Bekliyor | —      | —           | —      |
 | Array Methods     | ⏳ Bekliyor | —      | —           | —      |
@@ -32,4 +32,4 @@
 
 ---
 
-_Başlangıç: Mayıs 2026_
+_Son Güncelleme: 02 Haziran 2026_
