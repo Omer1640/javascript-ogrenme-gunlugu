@@ -15,6 +15,7 @@
 | JavaScript Giriş  | ✅ Tamam |31 May | [Not](./01-JavaScript-Giris/notlar.md)|[Kod](./01-JavaScript-Giris/kodlar.js)
 | Değişkenler       | ✅ Tamam | 02 Haz  | [Not](./02-Degiskenler/notlar.md)|[Kod](./02-Degiskenler/kodlar.js)|
 | Veri Tipleri      | ✅ Tamam | 05 Haz    | [Not](./03-Veri-Tipleri/notlar.md)|[Kod](./03-Veri-Tipleri/kodlar.js)     |
+| Operatörlere Giriş | 🔄 Devam | 12 Haz  | [Not](./04-Operatorler/notlar.md)|[Kod](./04-Operatorler/kodlar.js)          | —      |
 | Fonksiyonlar      | ⏳ Bekliyor | —      | —           | —      |
 | Array Methods     | ⏳ Bekliyor | —      | —           | —      |
 | Objects           | ⏳ Bekliyor | —      | —           | —      |
@@ -32,4 +33,4 @@
 
 ---
 
-_Son Güncelleme: 05 Haziran 2026_
+_Son Güncelleme: 12 Haziran 2026_
