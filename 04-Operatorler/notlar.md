@@ -4,7 +4,7 @@
 
 **Tarih:** 12 Haziran 2026
 
-**Kaynak:** Enes Bayram Kursu - Bölüm 9 - Ders 69
+**Kaynak:** Enes Bayram Kursu - Bölüm 9 - Ders 68
 
 ---
 
@@ -16,5 +16,23 @@
 - (%) mod alma işlemi yapar yani iki sayının bölümünden kalanını bulmak için kullanılır.
 - (++),(--) değerlerimizi birer birer artırır ve azaltır örnek: let a = 10; a++; = 11 , a--; = 9 olur.
 - (**) bir sayının üssünü alır.
+
+---
+
+
+## 📄 Atama Operatörleri 
+
+**Tarih:** 13 Haziran 2026
+
+**Kaynak:** Enes Bayram Kursu - Bölüm 9 - Ders 69
+
+--- 
+
+### Ne Öğrendim ?
+- 9 farklı Atama Operatörleri vardır.
+- (=) sağ taraftaki değeri sol taraftaki değişkene atar örn: let a = 5;
+- (==) sadece değişkenin değerinin eşitliğinden sorumludur örn: let a = 5 , let b = "5".
+- (===) veri tipinin değerinin ve tipinin eşitliğinden sorumludur her ikiside eşit olursa true olur örn: let a = "5" , let b = "5".
+- (+=), (-=), (*=), (/=), (%=), (**=) burada önce işlemler yapılır sonra değişkene atar.
 
 ---
