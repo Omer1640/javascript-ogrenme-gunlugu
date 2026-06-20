@@ -181,3 +181,56 @@ console.log(a === b); true döner
 // Yeni pratik yöntem
 // a**= 3;
 // console.log(a);
+
+// 20 Haziran 2026 - Enes Bayram Kursu - Bölüm 9  - Ders 70
+
+// * Mantıksal Operatörler
+
+/*
+    && : ve operatörü
+    || : veya operatörü
+    ! : değil operatörü
+
+*/
+
+// * && ve operatörü : her iki koşuluda sağlaması gerekir yani birisi false diğeri true olursa sonuç false olur her ikiside true olmalı.
+
+// Ehliyet Almak isteyen birisi: Yaşı 18'e eşit veya 18'den büyükse ve  28000 TL veya daha fazla parası varsa ehliyet alabilir.
+
+// let age = 18;
+// let cash = 25000;
+// console.log(age >= 18 && cash >= 28000);  birinci koşulu sağlıyor ama ikinci koşulu sağlamadığı için false olur.
+
+// yaş 18 den büyükse ve 30000 TL para varsa ve sağlık koşullarını sağlıyorsa ehliyet alabilir.
+
+// let age = 19;
+// let cash = 31000;
+// let health = true;
+
+// console.log(age > 18 && cash > 30000 && health);
+
+// * || veya operatörü : her iki koşuldan birisi true olursa sonuç true olur.
+
+// console.log(5 > 3 || 2 < 1);  true olur
+
+/*
+let age = 19;
+let cash = 31000;
+let health = false;
+
+console.log(age > 18 && cash > 30000 || health); burada true olur 
+*/
+
+// * ! değil operatörü : koşulun tersini verir.
+
+// console.log(!(10 < 5 && 4 > 3));  false true yaptı
+
+// * Örnek Uygulama : Üni Sınavına giriş için gereken şartlar yaş 17 ve üzeri ,lise mezunu , sınav başvurusu 
+
+// let age = 17;
+// let graduate = false;
+// let application = true;
+
+// console.log((age >= 17 && graduate) || (age>=17 && application)); birinci koşul false ikinci koşul true
+// console.log((age >= 17 && graduate) && (age>=17 && application)); her iki koşulda true olmadığı için sonuç false olur
+// console.log(!(age >= 17 && graduate) && (age>=17 && application)); true olur

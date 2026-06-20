@@ -36,3 +36,20 @@
 - (+=), (-=), (*=), (/=), (%=), (**=) burada önce işlemler yapılır sonra değişkene atar.
 
 ---
+
+
+## 📄 Mantıksal Operatörler 
+
+**Tarih:** 20 Haziran 2026
+
+**Kaynak:** Enes Bayram Kursu - Bölüm 9 - Ders 70
+
+--- 
+
+### Ne Öğrendim ?
+- 3 Farklı Mantıksal Operatör vardır.
+- (&&) Ve operatörü : her iki koşulda true olması gerekir.
+- (||) Veya operatörü : iki koşuldan birisi true olması gerekir.
+- (!) Değil operatörü : koşulun tersini alır yani true olan koşulu false , false olan koşulu true yapar. 
+
+---
