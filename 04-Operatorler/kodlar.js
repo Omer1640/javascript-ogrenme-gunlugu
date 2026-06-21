@@ -225,7 +225,7 @@ console.log(age > 18 && cash > 30000 || health); burada true olur
 
 // console.log(!(10 < 5 && 4 > 3));  false true yaptı
 
-// * Örnek Uygulama : Üni Sınavına giriş için gereken şartlar yaş 17 ve üzeri ,lise mezunu , sınav başvurusu 
+// * Örnek Uygulama : Üni Sınavına giriş için gereken şartlar yaş 17 ve üzeri ,lise mezunu , sınav başvurusu
 
 // let age = 17;
 // let graduate = false;
@@ -234,3 +234,51 @@ console.log(age > 18 && cash > 30000 || health); burada true olur
 // console.log((age >= 17 && graduate) || (age>=17 && application)); birinci koşul false ikinci koşul true
 // console.log((age >= 17 && graduate) && (age>=17 && application)); her iki koşulda true olmadığı için sonuç false olur
 // console.log(!(age >= 17 && graduate) && (age>=17 && application)); true olur
+
+// 21 Haziran 2026 - Enes Bayram Kursu - Bölüm 9  - Ders 71
+
+// * Karşılaştırma Operatörleri
+
+/*
+
+ == : eşit mi
+ != : eşit değil mi
+ > : büyük mü
+ < : küçük mü
+ >= : büyük eşit mi    
+ <= : küçük eşit mi
+*/
+
+// * (==) eşit mi: iki sayının birbirine eşitliğinde kullanılır.
+
+// console.log(20 == 20);
+// console.log("20" == 20); burda sadece sayıların eşitliğine bakar eşitse true döner tip kontrolü yapmaz
+
+// * (!=) eşit değil mi: iki sayının eşit olmadığını gösterir.
+
+// console.log(10!=3);
+
+// let age = 24;
+// console.log(age!=18);
+
+// * (>) büyük mü : sayıların büyük mü olduğunu gösterir.
+
+// let a = 20;
+// let b = 12;
+// console.log(a > b);
+
+// * (<) küçük mü : sayıların küçük mü olduğunu gösterir.
+
+// let a = 56;
+// let b = 42;
+// console.log(a < b);
+
+// * (>=) büyük eşit mi : sayıların büyük veya eşit olduğunu gösterir.
+// let sayi = 24;
+// console.log(sayi >= 22);  sayi değişkeni büyük olduğu için true olur
+// console.log(sayi >= 24);  sayi değişkeni 24 sayısına eşit olduğu için true olur.
+
+// * (<=) küçük eşit mi : sayıların küçük veya eşit olduğunu gösterir.
+// let sayi = 24;
+// console.log(sayi <= 25); sayi değişkeni 25 sayısından küçüktür sonuç true
+// console.log(sayi <= 18); sayi değişkeni 18 sayısından küçük ve eşit değildir sonuç false 
